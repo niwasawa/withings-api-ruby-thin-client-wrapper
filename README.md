@@ -1,5 +1,7 @@
 # Withings API Ruby thin client wrapper library
 
+[![Gem Version](https://badge.fury.io/rb/withings_api.svg)](https://badge.fury.io/rb/withings_api)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -39,6 +41,9 @@ puts JSON.pretty_generate(JSON.parse(res.body))
 ```
 
 ## Documentation
+
+Documentation for withings_api
+http://www.rubydoc.info/gems/withings_api/
 
 Withings Api Reference
 https://oauth.withings.com/api/doc
