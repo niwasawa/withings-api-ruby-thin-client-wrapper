@@ -23,9 +23,9 @@ require 'withings_api'
 require 'json'
 
 # create a instance of API wrapper
-t = TwitterAPI::Client.new({
-  :consumer_key => 'YOUR_CONSUMER_KEY',
-  :consumer_secret => 'YOUR_CONSUMER_SECRET',
+t = WithingsAPI::Client.new({
+  :consumer_key => 'YOUR_API_KEY',
+  :consumer_secret => 'YOUR_API_SECRET',
   :token => 'YOUR_ACCESS_TOKEN',
   :token_secret => 'YOUR_ACCESS_SECRET'
 })
